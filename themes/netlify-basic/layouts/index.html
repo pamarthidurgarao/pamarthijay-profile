@@ -1,31 +1,82 @@
 {{ define "main" }}
-<svg id="background" width='1728' height='1235' viewBox="0 0 1728 1235" fill='none' xmlns='http://www.w3.org/2000/svg'><g opacity='0.75' filter='url(#filter0_f_39_143)'><circle cy='1000' r='264' fill='url(#paint0_linear_39_143)'/></g><g opacity='0.65' filter='url(#filter1_f_39_143)'><circle cx='1720' cy='264' r='379' fill='url(#paint1_linear_39_143)'/></g><defs><filter id='filter0_f_39_143' x='-485' y='515' width='970' height='970' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><filter id='filter1_f_39_143' x='1120' y='-336' width='1200' height='1200' filterUnits='userSpaceOnUse' color-interpolation-filters='sRGB'><feFlood flood-opacity='0' result='BackgroundImageFix'/><feBlend mode='normal' in='SourceGraphic' in2='BackgroundImageFix' result='shape'/><feGaussianBlur stdDeviation='110.5' result='effect1_foregroundBlur_39_143'/></filter><linearGradient id='paint0_linear_39_143' x1='196.5' y1='902' x2='-2.55853e-05' y2='1264' gradientUnits='userSpaceOnUse'><stop stop-color="var(--bttm-left-blur-1)"/><stop offset='1' stop-color="var(--bttm-left-blur-2)"/></linearGradient><linearGradient id='paint1_linear_39_143' x1='1720' y1='-115' x2='1720' y2='643' gradientUnits='userSpaceOnUse'><stop stop-color="var(--top-right-blur-1)"/><stop offset='1' stop-color="var(--top-right-blur-2)" /></linearGradient></defs></svg>     
-<div id="content">
-  <div class="header">
-    <h1>Quickstart Template</h1>
-    <div class="logo">
-      <img src="https://user-images.githubusercontent.com/43764894/223559747-e9d7f19d-91bf-46a9-a0cb-8d6a40d3cfa3.png" alt="netlify + hugo banner" role="presentation">
+<body>
+
+    <header>
+        <h1>Dr. [Student's Full Name]</h1>
+        <p>Ph.D. Candidate in Medical Laboratory Technology (MLT)</p>
+    </header>
+
+    <div class="container">
+        <!-- Education Section -->
+        <section class="education">
+            <h2>Education</h2>
+            <ul>
+                <li><strong>Ph.D. in Medical Laboratory Technology</strong>, [University Name] — [Year Started] - Present</li>
+                <li><strong>Master of Science in Medical Laboratory Technology</strong>, [University Name] — [Year Completed]</li>
+                <li><strong>Bachelor of Science in Medical Laboratory Technology</strong>, [University Name] — [Year Completed]</li>
+            </ul>
+        </section>
+
+        <!-- Research Interests Section -->
+        <section class="research">
+            <h2>Research Interests</h2>
+            <ul>
+                <li>Diagnostic Laboratory Techniques and Innovations</li>
+                <li>Microbiological and Immunological Laboratory Testing</li>
+                <li>Biotechnology and Genetic Testing</li>
+                <li>Quality Control and Accreditation in Clinical Labs</li>
+            </ul>
+        </section>
+
+        <!-- Professional Experience Section -->
+        <section class="professional">
+            <h2>Professional Experience</h2>
+            <ul>
+                <li><strong>Teaching Assistant</strong>, [University Name] — [Start Year] to [End Year]
+                    <ul>
+                        <li>Assisted in lectures on laboratory management and safety protocols.</li>
+                        <li>Provided hands-on training in diagnostic lab procedures.</li>
+                    </ul>
+                </li>
+                <li><strong>Research Intern</strong>, [Hospital/Institute Name] — [Start Year] to [End Year]
+                    <ul>
+                        <li>Worked on diagnostic assays for disease detection.</li>
+                        <li>Collaborated with researchers in clinical trials and data analysis.</li>
+                    </ul>
+                </li>
+                <li><strong>Laboratory Technician</strong>, [Lab Name] — [Start Year] to [End Year]
+                    <ul>
+                        <li>Performed diagnostic tests and maintained lab equipment.</li>
+                        <li>Ensured adherence to safety and quality standards in the laboratory.</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <h2>Skills & Certifications</h2>
+            <ul>
+                <li>Certified Medical Laboratory Technician (CMLT)</li>
+                <li>Proficient in PCR, DNA sequencing, and microbiological testing</li>
+                <li>Advanced laboratory instrumentation operation</li>
+                <li>Strong knowledge of clinical safety and quality assurance</li>
+            </ul>
+        </section>
+
+        <!-- Contact Information Section -->
+        <section class="contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Email:</strong> [Email Address]</p>
+            <p><strong>Phone:</strong> [Phone Number]</p>
+            <p><strong>LinkedIn:</strong> <a href="[LinkedIn Profile URL]" target="_blank">[LinkedIn Profile URL]</a></p>
+            <p><strong>ResearchGate:</strong> <a href="[ResearchGate Profile URL]" target="_blank">[ResearchGate Profile URL]</a></p>
+        </section>
     </div>
-    <h2>
-      This is a bare-bones Hugo project that has everything you need to quickly deploy it to Netlify
-    </h2>
-    <div class="bttns">
-      <a href="https://app.netlify.com/start/deploy?repository=https://github.com/netlify-templates/hugo-quickstart" class="bttn primary">Deploy to Netlify</a>
-      <a href="https://github.com/netlify-templates/hugo-quickstart" class="bttn secondary">View Repo</a>
-    </div>
-  </div>
-  <div class="resource-list">
-    <ul>
-      <li>
-        <a href="https://ntl.fyi/3xXydGk">Netlify Blog: Hugo posts</a>
-        </li>
-      <li>
-        <a href="https://ntl.fyi/3P9w1mr">Hugo on Netlify Docs</a>
-      </li>
-      <li>
-        <a href="https://gohugo.io/documentation/">Hugo Docs</a>
-      </li>
-    </ul>
-  </div>
-</div>
+
+    <footer>
+        <p>&copy; 2024 Dr. [Student's Full Name]. All rights reserved.</p>
+    </footer>
+
+</body>
 {{ end }}
